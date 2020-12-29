@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Flag
+Description=A plymouth theme for Flag Linux
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/flag
+ScriptFile=/usr/share/plymouth/themes/flag/flag.script
