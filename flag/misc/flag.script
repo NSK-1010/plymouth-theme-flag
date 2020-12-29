@@ -3,7 +3,7 @@ Window.SetBackgroundTopColor(0, 0, 0);
 Window.SetBackgroundBottomColor(0, 0, 0);
 
 # LOGO
-logo.image = Image("loop-1.png");
+logo.image = Image("logo.svg");
 logo.sprite = Sprite(logo.image);
 logo.sprite.SetOpacity(0);
 logo.x = Window.GetX() + Window.GetWidth() / 2 - logo.image.GetWidth() / 2;
